@@ -1,0 +1,24 @@
+{
+  "name": "exif",
+  "appName":"Exif Inspector",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@saschazar/wasm-exif": "^3.0.0",
+    "exifreader": "^3.16.0",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
