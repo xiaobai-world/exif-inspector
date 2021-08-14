@@ -1,18 +1,20 @@
 {
   "name": "exif",
-  "appName":"Exif Inspector",
-  "version": "0.0.0",
+  "appName": "Exif Inspector",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
     "@saschazar/wasm-exif": "^3.0.0",
+    "@xiaobai-world/api": "0.0.26",
     "exifreader": "^3.16.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@types/node": "^16.6.1",
     "@vitejs/plugin-vue": "^1.4.0",
     "@vue/compiler-sfc": "^3.2.1",
     "less": "^4.1.1",
